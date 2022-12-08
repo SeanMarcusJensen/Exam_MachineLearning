@@ -17,4 +17,17 @@ another way to reduce overfitting is to include more data than you already have.
 
 > What is difference between L1 and L2 regularization?
 
+Lasso (L1) vs Rigid (L2) Regression is techniques to prevent overfitting.
 
+What this two methods does, is to take our normal loss functions MeanSquareError and applies a penalty to it.
+
+L1 is more Robust and is a better choice when it comes to outliers: it will ignore theese more effectively, because it uses a absolute function. Wheras L2 goes for a Squared approach.
+
+## Task 3
+
+> What is a difference between a parameter and a hyperparameter? How is 
+hyperparameter tuning performed for machine learning models
+
+The main difference on parameters and hyperparameters is that parameters is something the model learns/picks up on itself, while hyperparameters is something we manualy give the model to optimize its own algorigthm.
+
+Some models have different hyperparameters than others, because the underlaying algorighm is diffrent.
